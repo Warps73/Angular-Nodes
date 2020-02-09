@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const fs = require('fs');
 
 const thingSchema = mongoose.Schema({
     title: { type: String, required: true },
